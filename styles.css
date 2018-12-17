@@ -31,7 +31,8 @@ body {
       font-size:20px;
       font-style: oblique;
   }
-  footer{
-      border-radius: 100px;
-      background-color: aquamarine;
+  
+  span{
+      background-color:aquamarine;
+      border-radius:100px;
   }
