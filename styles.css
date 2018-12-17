@@ -32,7 +32,7 @@ body {
       font-style: oblique;
   }
   
-  span{
-      background-color:aquamarine;
-      border-radius:100px;
+  footer{
+   background-color: aquamarine;
   }
+  
