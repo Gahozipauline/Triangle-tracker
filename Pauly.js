@@ -1,25 +1,19 @@
 function myFunction(){
-    var firstside = document.getElementById("sides1").value;
-    alert(firstside)
-}
-function myFunction(){
-    var secondside = document.getElementById("sides2").value;
-    alert(secondside)
-}
-function myFunction(){
+    var firstSide = document.getElementById("sides1").value;
+    var secondSide =document.getElementById("sides2").value;
     var thirdSide = document.getElementById("sides3").value;
-    alert(thirdSide)
-}
-var triangle=parseInt[firstSides, secondSides, thirdSides];
 
-
-    if(firstSide===secondSide && firstSide===thirdSide){
+//var triangle=parseInt[firstSides, secondSides, thirdSides];
+ if(firstSide===secondSide && firstSide===thirdSide ){
         alert("triangle is equitateral");
     }
-     else if(firstSides===secondSides || firstSides===thirdSides || secondSides===thirdSides){
+     else if(firstSide!==secondSide && firstSide!==thirdSide && secondSides!==thirdSide){
         alert("triangle is scalene");
      }
-     else if(firstSides+secondSides>thirdSides || firstSides+thirdSides>secondsides ||(secondSides+thirdSides>firstSides){
-        alert("triangle is isoscele")
+     else if(firstSide===secondSide || firstSide===secondside ||secondSide+thirdSide){
+        alert("triangle is isoscele");
     }
-  
+      else if(firstSide+secondSide<=thirdSide || firstSide+thirdSide<=secondSide || secondSide+thirdSide<=firstSide){
+          alert("not a triangle");
+    }
+} 
