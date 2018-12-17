@@ -16,4 +16,4 @@ function myFunction(){
       else if(firstSide+secondSide<=thirdSide || firstSide+thirdSide<=secondSide || secondSide+thirdSide<=firstSide){
           alert("not a triangle");
     }
-} 
+     } 
