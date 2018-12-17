@@ -1,0 +1,34 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwg2RUg4CfA-eZ5M7_KOkcr5kjcOuk1WSLCd-x-QP9OJaHl5tU');
+    background-size: cover;
+    }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+  }
+  
+  .triangles {
+    width: 20%;
+    float: left;
+  }
+  h2{
+      font-size:20px;
+      font-style: oblique;
+      text-align:center;
+  }
+  h3{
+      font-size: 20px;
+      font-style: oblique;
+  }
+  p{
+      font-size:20px;
+  }
+  hr{
+      height: 0px;
+      width:600px;
+      border-color: black;
+      box-align: center;
+  }
