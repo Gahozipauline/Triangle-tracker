@@ -32,6 +32,6 @@ body {
       font-style: oblique;
   }
   footer{
-      border-radius: 10px;
-      color:blue;
+      border-radius: 100px;
+      background-color: aquamarine;
   }

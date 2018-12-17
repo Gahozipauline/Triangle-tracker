@@ -8,7 +8,7 @@ Pauline AYINGENEYE
 
   Triangle tracker will build an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 
-  ### setup instructions
+  ### BDD
 
   | Behaviour                                 | input | output      |
 |-------------------------------------------|-------|-------------|
@@ -19,6 +19,7 @@ Pauline AYINGENEYE
 ### link to live site on git pages
 
 github.com/Gahozipauline/my-project/blob/master/README.md
-
+### Technologies used
+css,javascripts,html
 ### copyright&licence information
 copyright@2018
