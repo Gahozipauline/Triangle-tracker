@@ -28,6 +28,6 @@ body {
   }
   img{
       font-size: 50px;
-      flex-direction:row;
+      display: flex;
   }
   
