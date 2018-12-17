@@ -1,6 +1,10 @@
 # Triangle tracker
-## Pauline AYINGENEYE
- ## Description of the project
+
+## author name
+
+Pauline AYINGENEYE
+
+ ### Description of the project
 
   Triangle tracker will build an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 
