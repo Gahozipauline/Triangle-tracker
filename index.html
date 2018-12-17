@@ -9,13 +9,25 @@
 </head>
 <body>
    <h1>Triangle Tracker Project</h1> 
-   <input type="number" id="sides 1">
-  <button onclick="myFunction()">sides1</button>
-  <input type="number" id="sides 2">
-  <button onclick="myFunction">sides2</button>
-  <input type="number" id="sides 3">
-  <button onclick="myFunction">sides3</button>
-  <input type="submit" value="submit">
-  <input type="reset" value="reset">
+   <p>Triangle tracker will be build an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.</p>
+   <div class="triangles" id="equilateral">
+    <h2>Equilateral triangles=sides must be equal.</h2>
+    <ul></ul>
+  </div>
+
+  <div class="triangles" id="isosceles">
+    <h2>Isosceles triangles=two sides are exactly equal.</h2>
+    <ul></ul>
+  </div>
+
+  <div class="triangles" id="scalene">
+    <h2>Scalene triangles=none of the sides is equal.</h2>
+    <ul></ul>
+     <div class="triangle">
+       Firstside<input type="number" id="sides1"><br></br>
+       Secondside<input type="number" id="sides2"><br></br>
+       Thirdside<input type="number" id="sides3"><br></br>
+        <button onclick="myFunction()">submit</button>
+  </div>
 </body>
 </html>
