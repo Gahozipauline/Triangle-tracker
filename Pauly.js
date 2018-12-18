@@ -2,7 +2,8 @@ function myFunction(){
     var firstSide = document.getElementById("sides1").value;
     var secondSide =document.getElementById("sides2").value;
     var thirdSide = document.getElementById("sides3").value;
-
+    var triangle=[firstSide, secondSide,thirdSide];
+    console.log(triangle);
 //var triangle=parseInt[firstSides, secondSides, thirdSides];
  if(firstSide===secondSide && firstSide===thirdSide ){
         alert("triangle is equitateral");
